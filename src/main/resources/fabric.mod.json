@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "cobbleballs",
+  "version": "1.0.0",
+  "name": "Created Cobbleballs",
+  "description": "Create integration with cobblemon",
+  "authors": [
+    "Bulby"
+  ],
+  "license": "MPL-2.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "scala",
+        "value": "net.bulbyvr.cobbleballs.Cobbleballs"
+      }
+    ]
+  },
+  "depends": {
+    "java": ">=17",
+    "minecraft": ">=1.19.2",
+    "fabricloader": ">=0.13.3",
+    "fabric-language-scala": "*",
+    "fabric": "*",
+    "architectury": ">=6.0.37",
+    "cobblemon": ">=1.2.0"
+  }
+}

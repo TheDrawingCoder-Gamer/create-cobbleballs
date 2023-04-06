@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cobbleballs:items/poke_balls/lavender_ball"
+  }
+}
+
