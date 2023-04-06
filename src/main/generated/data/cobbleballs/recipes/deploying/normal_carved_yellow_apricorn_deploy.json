@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "cobblemon:yellow_apricorn"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "cobbleballs:normal_carved_yellow_apricorn"
+    }
+  ]
+}

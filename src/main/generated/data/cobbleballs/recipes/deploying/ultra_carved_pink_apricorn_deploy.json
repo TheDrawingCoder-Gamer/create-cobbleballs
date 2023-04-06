@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "cobblemon:pink_apricorn"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "cobbleballs:ultra_carved_pink_apricorn"
+    }
+  ]
+}

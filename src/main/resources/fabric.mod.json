@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "cobbleballs",
-  "version": "1.0.0",
+  "version": "${mod_version}",
   "name": "Created Cobbleballs",
   "description": "Create integration with cobblemon",
   "authors": [
@@ -15,6 +15,12 @@
         "adapter": "scala",
         "value": "net.bulbyvr.cobbleballs.Cobbleballs"
       }
+    ],
+    "fabric-datagen": [
+      {
+        "adapter": "scala",
+        "value": "net.bulbyvr.cobbleballs.ApricornRecipeEntry"
+      }
     ]
   },
   "depends": {
@@ -24,6 +30,7 @@
     "fabric-language-scala": "*",
     "fabric": "*",
     "architectury": ">=6.0.37",
-    "cobblemon": ">=1.2.0"
+    "cobblemon": ">=1.2.0",
+    "create": "${create_version}"
   }
 }

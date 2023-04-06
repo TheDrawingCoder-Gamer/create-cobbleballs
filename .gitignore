@@ -43,3 +43,11 @@ bin/
 
 ### Metals ###
 .metals/
+
+### run ###
+run/
+!fabric_loader_dependencies.json
+runDatagen
+
+### othjer garbag ###
+.cache

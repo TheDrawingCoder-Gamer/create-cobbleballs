@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cobbleballs:item/normal_carved_yellow_apricorn"
+  }
+}
