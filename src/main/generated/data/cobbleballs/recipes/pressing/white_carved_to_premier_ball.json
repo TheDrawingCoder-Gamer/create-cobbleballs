@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cobbleballs:normal_carved_white_apricorn"
+    }
+  ],
+  "results": [
+    {
+      "count": 4,
+      "item": "cobblemon:premier_ball"
+    }
+  ]
+}

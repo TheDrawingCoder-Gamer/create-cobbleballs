@@ -60,7 +60,7 @@ tasks.withType<ProcessResources> {
 sourceSets {
     main {
         resources {
-            srcDirs.add(file("src/main/generated"))
+            srcDir("src/main/generated")
         }
     }
 }
@@ -74,7 +74,7 @@ dependencies {
     modImplementation("net.fabricmc.fabric-api:fabric-api:${properties["fabric_version"]}")
     modImplementation("dev.architectury", "architectury-fabric", "6.5.69")
     modImplementation("com.cobblemon:fabric:1.3.1+1.19.2-SNAPSHOT")
-    modImplementation("io.github.thedrawingcoder-gamer:fabric-language-scala-cats:0.1.0-3-SNAPSHOT")
+    modImplementation("io.github.thedrawingcoder-gamer:fabric-language-scala-cats:0.1.0-4-SNAPSHOT")
     modImplementation("com.simibubi.create:create-fabric-1.19.2:${properties["create_version"]}")
 
    	modLocalRuntime("maven.modrinth:lazydfu:${properties["lazydfu_version"]}")

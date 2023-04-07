@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cobbleballs:great_carved_blue_apricorn"
+    }
+  ],
+  "results": [
+    {
+      "item": "cobblemon:great_ball",
+      "count": 4
+    }
+  ]
+}

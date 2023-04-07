@@ -12,13 +12,13 @@
   "entrypoints": {
     "main": [
       {
-        "adapter": "scala",
+        "adapter": "scala-cats",
         "value": "net.bulbyvr.cobbleballs.Cobbleballs"
       }
     ],
     "fabric-datagen": [
       {
-        "adapter": "scala",
+        "adapter": "scala-cats",
         "value": "net.bulbyvr.cobbleballs.ApricornRecipeEntry"
       }
     ]
@@ -27,7 +27,7 @@
     "java": ">=17",
     "minecraft": ">=1.19.2",
     "fabricloader": ">=0.13.3",
-    "fabric-language-scala": "*",
+    "fabric-language-scala-cats": "*",
     "fabric": "*",
     "architectury": ">=6.0.37",
     "cobblemon": ">=1.2.0",

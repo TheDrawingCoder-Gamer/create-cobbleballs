@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cobbleballs:normal_carved_green_apricorn"
+    }
+  ],
+  "results": [
+    {
+      "count": 4,
+      "item": "cobblemon:verdant_ball"
+    }
+  ]
+}
